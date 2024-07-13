@@ -90,8 +90,7 @@ nav li a {
 .banner-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 35px;
+    margin: 0 35px 0 200px;
 }
 
 .banner-header {
@@ -140,9 +139,9 @@ nav li a {
     margin-left: 20px;
 }
 
-.banner-profile {
-    width: 580px;
-    margin-top: 20px;
+.banner-profile img {
+    width: 100%;
+    /* margin-top: 20px; */
 }
 
 /* End of Banner Styles. */
@@ -274,7 +273,6 @@ nav li a {
     text-align: center;
     margin-top: 50px;
 }
-
 /* End of Resume Styles. */
 
 
@@ -390,10 +388,11 @@ textarea {
         margin-left: 0px;
     }
 
-    .banner-profile {
-        width: 50%;
-        height: 100%;
+    .banner-profile img{
+        width: 40%;
+        height: auto;
         margin-top: 20px;
+        margin-bottom: 0px;
     }
     /* End of Banner Responsive Styles. */
 
