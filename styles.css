@@ -392,7 +392,7 @@ textarea {
 
     .banner-profile {
         width: 50%;
-        height: auto;
+        height: 100%;
         margin-top: 20px;
     }
     /* End of Banner Responsive Styles. */
