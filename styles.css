@@ -355,8 +355,10 @@ textarea {
 
     nav ul {
         margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 50px;
+        align-items: center;
+        gap: 10px;
     }
 
     .banner-container {
@@ -384,12 +386,7 @@ textarea {
         gap: 10px;
     }
 
-    .cv-button {
-        width: 50%;
-    }
-
     .contact-button {
-        width: 50%;
         margin-left: 0px;
     }
 
