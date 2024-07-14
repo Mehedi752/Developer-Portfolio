@@ -272,6 +272,7 @@ nav li a {
     text-align: center;
     margin-top: 50px;
 }
+
 /* End of Resume Styles. */
 
 
@@ -321,6 +322,7 @@ textarea {
     font-size: 16px;
     padding: 10px 20px;
 }
+
 /* End of Footer Styles. */
 
 
@@ -344,6 +346,7 @@ textarea {
     nav {
         flex-direction: column;
         margin: 0px 10px;
+        padding-top: 20px
     }
 
     .nav-title {
@@ -351,16 +354,16 @@ textarea {
     }
 
     nav ul {
-        margin-top: 10px;
+        margin-top: 20px;
         flex-direction: column;
         padding-left: 50px;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
     }
 
     .banner-container {
         flex-direction: column;
-        margin: 10px;
+        margin: 20px;
     }
 
     .banner-header {
@@ -376,28 +379,35 @@ textarea {
         font-size: 50px;
     }
 
+    .banner-description{
+        margin-top: 40px;
+    }
+
     .button-div {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
     }
 
     .contact-button {
         margin-left: 0px;
     }
 
-    .banner-profile img{
+    /* .banner-profile img{
         width: 50%;
         height: 200px;
         margin-top: 20px;
         margin-bottom: 0px;
+    } */
+
+    .banner-profile {
+        visibility: hidden;
+        /* text-align: center;
+        margin-bottom: 20px; */
     }
 
-    .banner-profile{
-        text-align: center;
-        margin-bottom: 20px;
-    }
     /* End of Banner Responsive Styles. */
 
 
@@ -494,5 +504,6 @@ textarea {
     textarea {
         width: 50%;
     }
+
     /* End of Footer Responsive Styles. */
 }
