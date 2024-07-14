@@ -140,8 +140,7 @@ nav li a {
 }
 
 .banner-profile img {
-    width: 100%;
-    /* margin-top: 20px; */
+    width: 580px;
 }
 
 /* End of Banner Styles. */
@@ -389,10 +388,15 @@ textarea {
     }
 
     .banner-profile img{
-        width: 40%;
-        height: auto;
+        width: 50%;
+        height: 200px;
         margin-top: 20px;
         margin-bottom: 0px;
+    }
+
+    .banner-profile{
+        text-align: center;
+        margin-bottom: 20px;
     }
     /* End of Banner Responsive Styles. */
 
